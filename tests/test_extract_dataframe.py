@@ -7,7 +7,7 @@ sys.path.append(os.path.abspath(os.path.join('../..')))
 from extract_dataframe import read_json
 from extract_dataframe import TweetDfExtractor
 
-_, tweet_list = read_json("C:\Users\user\Documents\GitHub\Twitter-Data-Analysis\data\Economic_Twitter_Data.json")
+_, tweet_list = read_json("C:/Users/user/Documents/GitHub/Twitter-Data-Analysis/data/Economic_Twitter_Data.json")
 
 
 columns = ['created_at', 'source', 'original_text','clean_text', 'sentiment','polarity','subjectivity', 'lang', 'favorite_count', 'retweet_count', 
